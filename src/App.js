@@ -1,5 +1,6 @@
 import MovieList from './component/MovieList'
 import MovieDetail from './component/MovieDetail'
+import { HashRouter as Router } from 'react-router-dom';
 import {BrowserRouter, Link, Switch, Route} from 'react-router-dom';
 
 function App() {
