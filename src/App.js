@@ -1,6 +1,5 @@
 import MovieList from './component/MovieList'
 import MovieDetail from './component/MovieDetail'
-import { HashRouter as Router } from 'react-router-dom';
 import {BrowserRouter, Link, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
         <BrowserRouter>
           <Switch>
           <Route path="/" component={MovieList} exact></Route>
-          <Route path="moviedetail/:id" component={MovieDetail}></Route>
+          <Route path="/moviedetail/:id" component={MovieDetail}></Route>
           </Switch>
         </BrowserRouter>
       </div>
